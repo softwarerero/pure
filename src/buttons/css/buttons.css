@@ -58,10 +58,7 @@ button::-moz-focus-inner, .button::-moz-focus-inner {
     border: 0;
 }
 
-button, .button.primary,
-button, .button.selected,
-a.button.primary,
-a.button.selected {
+button.primary, .button.primary, .button.selected {
     background-color: rgb(0, 120, 231);
     color: #fff;
 }
