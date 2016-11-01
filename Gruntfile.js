@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 
 grunt.initConfig({
 
-    nick : 'pure',
+    nick : 'unpure',
     pkg  : grunt.file.readJSON('package.json'),
     bower: grunt.file.readJSON('bower.json'),
 
@@ -13,7 +13,7 @@ grunt.initConfig({
     bower_json: {
         release: {
             values: {
-                main: 'pure.css'
+                main: 'unpure.css'
             },
 
             dest: 'build/'
@@ -170,7 +170,7 @@ grunt.initConfig({
             options: {
                 banner: [
                     '/*!',
-                    'Pure v<%= pkg.version %>',
+                    'Unpure v<%= pkg.version %>',
                     'Copyright 2013 Yahoo! Inc. All rights reserved.',
                     'Licensed under the BSD License.',
                     'https://github.com/yahoo/pure/blob/master/LICENSE.md',
@@ -228,7 +228,7 @@ grunt.initConfig({
             dest: 'build/base-context.css',
 
             options: {
-                mutations: [{prefix: '.pure'}]
+                mutations: [{prefix: ''}]
             }
         }
     },

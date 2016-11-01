@@ -1,24 +1,24 @@
 @media only screen and (max-width : 480px) {
-    .pure-form button[type="submit"] {
+    .form button[type="submit"] {
         margin: 0.7em 0 0;
     }
 
-    .pure-form input:not([type]),
-    .pure-form input[type="text"],
-    .pure-form input[type="password"],
-    .pure-form input[type="email"],
-    .pure-form input[type="url"],
-    .pure-form input[type="date"],
-    .pure-form input[type="month"],
-    .pure-form input[type="time"],
-    .pure-form input[type="datetime"],
-    .pure-form input[type="datetime-local"],
-    .pure-form input[type="week"],
-    .pure-form input[type="number"],
-    .pure-form input[type="search"],
-    .pure-form input[type="tel"],
-    .pure-form input[type="color"],
-    .pure-form label {
+    .form input:not([type]),
+    .form input[type="text"],
+    .form input[type="password"],
+    .form input[type="email"],
+    .form input[type="url"],
+    .form input[type="date"],
+    .form input[type="month"],
+    .form input[type="time"],
+    .form input[type="datetime"],
+    .form input[type="datetime-local"],
+    .form input[type="week"],
+    .form input[type="number"],
+    .form input[type="search"],
+    .form input[type="tel"],
+    .form input[type="color"],
+    .form label {
         margin-bottom: 0.3em;
         display: block;
     }
@@ -41,21 +41,21 @@
         margin-bottom: 0;
     }
 
-    .pure-form-aligned .pure-control-group label {
+    .form-aligned .pure-control-group label {
         margin-bottom: 0.3em;
         text-align: left;
         display: block;
         width: 100%;
     }
 
-    .pure-form-aligned .pure-controls {
+    .form-aligned .pure-controls {
         margin: 1.5em 0 0 0;
     }
 
-    /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
-    .pure-form .pure-help-inline,
-    .pure-form-message-inline,
-    .pure-form-message {
+    /* NOTE: pure-help-inline is deprecated. Use .form-message-inline instead. */
+    .form .pure-help-inline,
+    .form-message-inline,
+    .form-message {
         display: block;
         font-size: 0.75em;
         /* Increased bottom padding to make it group with its related input element. */

@@ -1,9 +1,9 @@
 /* Submenus should still be display: block; */
-.pure-menu-item .pure-menu-item {
+.menu-item .menu-item {
     display: block;
 }
 
-.pure-menu-children {
+.menu-children {
     display: none;
     position: absolute;
     left: 100%;
@@ -13,26 +13,26 @@
     z-index: 3;
 }
 
-.pure-menu-horizontal .pure-menu-children {
+.menu-horizontal .menu-children {
     left: 0;
     top: auto;
     width: inherit;
 }
 
-.pure-menu-allow-hover:hover > .pure-menu-children,
-.pure-menu-active > .pure-menu-children {
+.menu-allow-hover:hover > .menu-children,
+.menu-active > .menu-children {
     display: block;
     position: absolute;
 }
 
 /* Vertical Menus - show the dropdown arrow */
-.pure-menu-has-children > .pure-menu-link:after {
+.menu-has-children > .menu-link:after {
     padding-left: 0.5em;
     content: "\25B8";
     font-size: small;
 }
 
 /* Horizontal Menus - show the dropdown arrow */
-.pure-menu-horizontal .pure-menu-has-children > .pure-menu-link:after {
+.menu-horizontal .menu-has-children > .menu-link:after {
     content: "\25BE";
 }

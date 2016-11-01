@@ -1,18 +1,18 @@
 /* scrollable menus */
-.pure-menu-scrollable {
+.menu-scrollable {
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
-.pure-menu-scrollable .pure-menu-list {
+.menu-scrollable .menu-list {
     display: block;
 }
 
-.pure-menu-horizontal.pure-menu-scrollable .pure-menu-list {
+.menu-horizontal.menu-scrollable .menu-list {
     display: inline-block;
 }
 
-.pure-menu-horizontal.pure-menu-scrollable {
+.menu-horizontal.menu-scrollable {
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: auto;
@@ -22,6 +22,6 @@
     padding: .5em 0;
 }
 
-.pure-menu-horizontal.pure-menu-scrollable::-webkit-scrollbar {
+.menu-horizontal.menu-scrollable::-webkit-scrollbar {
     display: none;
 }
