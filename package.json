@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/softwarerero/pure.git"
+    "url": "git://github.com/softwarerero/unpure.git"
   },
   "scripts": {
     "test": "grunt test",
@@ -27,7 +27,7 @@
   },
   "description": "Unpure is a ridiculously tiny CSS library you can use to start any web project.",
   "bugs": {
-    "url": "https://github.com/softwarerero/pure/issues"
+    "url": "https://github.com/softwarerero/unpure/issues"
   },
   "homepage": "",
   "main": "build/unpure-min.css",
