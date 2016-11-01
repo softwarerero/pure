@@ -9,7 +9,7 @@ The fork tries to be less intrusive than pure.css in the sense that native html 
 - make it ready for bower
 - make it ready for npmjs
 
-
+This css framework is also unpure as it uses adjoining classes, so don't use it with Internet Explorer 6 or earlier.
 
 License
 -------
