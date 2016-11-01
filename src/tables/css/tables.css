@@ -45,31 +45,31 @@ striping:
 table td {
     background-color: transparent;
 }
-table-odd td {
+table .odd {
     background-color: #f2f2f2;
 }
 
 /* nth-child selector for modern browsers */
-table-striped tr:nth-child(2n-1) td {
+.striped tr:nth-child(2n-1) td {
     background-color: #f2f2f2;
 }
 
 /* BORDERED TABLES */
-table-bordered td {
+table.bordered td {
     border-bottom: 1px solid #cbcbcb;
 }
-table-bordered tbody > tr:last-child > td {
+table.bordered tbody > tr:last-child > td {
     border-bottom-width: 0;
 }
 
 
 /* HORIZONTAL BORDERED TABLES */
 
-table-horizontal td,
-table-horizontal th {
+table.horizontal td,
+table.horizontal th {
     border-width: 0 0 1px 0;
     border-bottom: 1px solid #cbcbcb;
 }
-table-horizontal tbody > tr:last-child > td {
+table.horizontal tbody > tr:last-child > td {
     border-bottom-width: 0;
 }
