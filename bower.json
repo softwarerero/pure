@@ -1,6 +1,6 @@
 {
   "name": "unpure",
-  "description": "Use Unpure's ridiculously tiny CSS to start any web project.",
+  "description": "Use Unpure's ridiculously unintrusive CSS to start any web project.",
   "main": "build/unpure.css",
   "devDependencies": {
     "normalize-css": "^3.0"
