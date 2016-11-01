@@ -1,5 +1,6 @@
 {
   "name": "unpure",
+  "version": "0.1.0",
   "description": "Use Unpure's ridiculously unintrusive CSS to start any web project.",
   "main": "build/unpure.css",
   "devDependencies": {
