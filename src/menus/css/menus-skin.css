@@ -17,7 +17,7 @@
     color: #565d64;
 }
 
-.menu-link {
+.menu a {
     color: #777;
 }
 
@@ -25,7 +25,7 @@
     background-color: #fff;
 }
 
-.menu-link,
+.menu a,
 .menu-disabled,
 .menu-heading {
     padding: .5em 1em;
@@ -35,17 +35,18 @@
     opacity: .5;
 }
 
-.menu-disabled .menu-link:hover {
+.menu a:hover,
+.menu-disabled {
     background-color: transparent;
 }
 
-.menu-active > .menu-link,
-.menu-link:hover,
-.menu-link:focus {
+.menu-active > a,
+.menu a:hover,
+.menu a:focus {
     background-color: #eee;
 }
 
-.menu-selected .menu-link,
-.menu-selected .menu-link:visited {
+.menu-selected a,
+.menu-selected a:visited {
     color: #000;
 }

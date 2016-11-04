@@ -26,13 +26,13 @@
 }
 
 /* Vertical Menus - show the dropdown arrow */
-.menu-has-children > .menu-link:after {
+.menu-has-children > a:after {
     padding-left: 0.5em;
     content: "\25B8";
     font-size: small;
 }
 
 /* Horizontal Menus - show the dropdown arrow */
-.menu-horizontal .menu-has-children > .menu-link:after {
+.menu-horizontal .menu-has-children > a:after {
     content: "\25BE";
 }

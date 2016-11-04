@@ -4,12 +4,12 @@
     white-space: nowrap;
 }
 
-.menu-horizontal .menu-list {
+.menu-horizontal ul {
     display: inline-block;
 }
 
 /* Initial menus should be inline-block so that they are horizontal */
-.menu-horizontal .menu-item,
+.menu-horizontal li,
 .menu-horizontal .menu-heading,
 .menu-horizontal .menu-separator {
     display: inline-block;
